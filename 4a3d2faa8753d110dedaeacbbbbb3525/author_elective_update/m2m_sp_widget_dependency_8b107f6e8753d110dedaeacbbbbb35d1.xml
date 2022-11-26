@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_widget_dependency">
+    <m2m_sp_widget_dependency action="DELETE">
+        <sp_dependency display_value="HashConnect">42359cca87361510dedaeacbbbbb351f</sp_dependency>
+        <sp_widget display_value="web3login">7cade7ea8753d110dedaeacbbbbb359d</sp_widget>
+        <sys_class_name>m2m_sp_widget_dependency</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-24 17:12:08</sys_created_on>
+        <sys_id>8b107f6e8753d110dedaeacbbbbb35d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HashConnect.web3login</sys_name>
+        <sys_package display_value="web3" source="x_snc_web3">4a3d2faa8753d110dedaeacbbbbb3525</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="web3">4a3d2faa8753d110dedaeacbbbbb3525</sys_scope>
+        <sys_update_name>m2m_sp_widget_dependency_8b107f6e8753d110dedaeacbbbbb35d1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-24 17:12:08</sys_updated_on>
+    </m2m_sp_widget_dependency>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="web3">4a3d2faa8753d110dedaeacbbbbb3525</application>
+        <file_path/>
+        <instance_id>e999f790db42d9d0b847ac44d4961941</instance_id>
+        <instance_name>nicolatokyo</instance_name>
+        <name>m2m_sp_widget_dependency_8b107f6e8753d110dedaeacbbbbb35d1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_widget_dependency"><m2m_sp_widget_dependency action="INSERT_OR_UPDATE"><sp_dependency display_value="HashConnect">42359cca87361510dedaeacbbbbb351f</sp_dependency><sp_widget display_value="web3login">7cade7ea8753d110dedaeacbbbbb359d</sp_widget><sys_class_name>m2m_sp_widget_dependency</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-24 17:12:08</sys_created_on><sys_id>8b107f6e8753d110dedaeacbbbbb35d1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>HashConnect.web3login</sys_name><sys_package display_value="web3" source="x_snc_web3">4a3d2faa8753d110dedaeacbbbbb3525</sys_package><sys_policy/><sys_scope display_value="web3">4a3d2faa8753d110dedaeacbbbbb3525</sys_scope><sys_update_name>m2m_sp_widget_dependency_8b107f6e8753d110dedaeacbbbbb35d1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-24 17:12:08</sys_updated_on></m2m_sp_widget_dependency></record_update>]]></payload>
+        <payload_hash>1388054924</payload_hash>
+        <record_name>HashConnect.web3login</record_name>
+        <reverted_from/>
+        <source>863d2faa8753d110dedaeacbbbbb3527</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-24 17:12:08</sys_created_on>
+        <sys_id>c3107f6e8753d110dedaeacbbbbb35d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>184aaa0159c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-24 17:12:08</sys_updated_on>
+        <type>Widget Dependency</type>
+        <update_guid>0f107f6ec453d1105d18fae45d887fd3</update_guid>
+        <update_guid_history>0f107f6ec453d1105d18fae45d887fd3:1388054924</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="HashConnect.web3login">fa303bae8753d110dedaeacbbbbb3562</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-24 17:12:41</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sp_widget_dependency">m2m_sp_widget_dependency</sys_db_object>
+        <sys_id>15938f0fea9a46d3a61dc2ddf1f98469</sys_id>
+        <sys_metadata>8b107f6e8753d110dedaeacbbbbb35d1</sys_metadata>
+        <sys_name>HashConnect.web3login</sys_name>
+        <sys_package display_value="web3" source="x_snc_web3">4a3d2faa8753d110dedaeacbbbbb3525</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="web3">4a3d2faa8753d110dedaeacbbbbb3525</sys_scope>
+        <sys_scope_delete display_value="">2e613781f8ae49dc8db02f1f2e8e1f90</sys_scope_delete>
+        <sys_update_name>m2m_sp_widget_dependency_8b107f6e8753d110dedaeacbbbbb35d1</sys_update_name>
+        <sys_update_version display_value="m2m_sp_widget_dependency_8b107f6e8753d110dedaeacbbbbb35d1">c3107f6e8753d110dedaeacbbbbb35d4</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

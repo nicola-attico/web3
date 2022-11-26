@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller = function() {
+
+        var c = this;
+        hc = new HashConnect.HashConnect(false);
+        c.hc = hc
+        var payload = c.data.payload
+
+        console.log("hc ", hc)
+
+        hc.foundExtensionEvent.on(function(data) {
+            console.log("extension found")
+        })
+
+        hc.foundExtensionEvent.on(function(data) {
+            console.log("extension found")
+        })
+
+        hc.setupEvents()
+
+        var appMetadata = {
+            name: "nicolatokyo",
+            description: "nicolatokyo instance"  
+        };
+
+		//url: "https://nicolatokyo.service-now.com"
+	
+        hc.init(appMetadata, "testnet", false).then(function(x) {
+            c.data.wallet = x
+            console.log("x", x)
+        })
+
+        c.connectWallet = function() {
+            hc.connectToLocalWallet();
+        }
+
+        c.authenticate = function() {
+			console.log("hc", hc)
+            hc.authenticate(c.hc.hcData.topic, c.hc.hcData.pairingData[0].accountIds[0], c.data.serverAccount, c.data.payloadSignature, c.data.payload).then(function(res) {
+				console.log("res", res)
+				//See https://stackoverflow.com/questions/12710001/how-to-convert-uint8-array-to-base64-encoded-string
+				console.log("serverSignature", new TextDecoder().decode(res.signedPayload.serverSignature))
+				console.log("userSignature", btoa(res.userSignature))
+            })
+        }
+	
+	    c.disconnectPairing = function(topic) {
+			hc.disconnect(topic).then(function(res){ console.log("hc ", c.hc) })
+		}
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>web3login</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>web3login</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {	
+	if (!input) {
+		data.payload = "hello"
+		data.serverAccount = "0.0.48100445"
+		//this is the result of sign on the string "hello"
+		//data.payloadSignature = "1yd30hJ/QromaBDvYth8uUlalc8NBu8qToOoOrfrtBccFvfheHDv0IiGxGWAbI/RTkwxeEHrBlh0NnjSdYe5Dg=="
+		//this is the base64 of the signature string
+		data.payloadSignature = "MXlkMzBoSi9Rcm9tYUJEdll0aDh1VWxhbGM4TkJ1OHFUb09vT3JmcnRCY2NGdmZoZUhEdjBJaUd4R1dBYkkvUlRrd3hlRUhyQmxoME5ualNkWWU1RGc9PQ=="
+		data.user = gs.getUserName()
+	}
+	
+	if (input) {
+
+	}
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-24 17:01:34</sys_created_on>
+        <sys_id>7cade7ea8753d110dedaeacbbbbb359d</sys_id>
+        <sys_name>web3login</sys_name>
+        <sys_package display_value="web3" source="x_snc_web3">4a3d2faa8753d110dedaeacbbbbb3525</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="web3">4a3d2faa8753d110dedaeacbbbbb3525</sys_scope>
+        <sys_update_name>sp_widget_7cade7ea8753d110dedaeacbbbbb359d</sys_update_name>
+        <template><![CDATA[<div>
+  <p>Status: {{c.hc.status}}</p>
+  <p>User: {{c.data.user}}</p>
+  <p>Topic: {{c.hc.hcData.topic }}
+  <p>pairingString: {{c.hc.hcData.pairingString }}</p>
+  <p>Encryption Key: {{ c.hc.hcData.encryptionKey }}</p>
+  <button ng-click="c.connectWallet()" ng-disabled="c.hc.status == 'no-Paired'">Connect Wallet</button>
+  <button ng-click="c.disconnectPairing(c.hc.hcData.topic)">Disconnect Pairing</button>
+  <button ng-click="c.authenticate()">Authenticate</button>
+</div>]]></template>
+    </sp_widget>
+</record_update>

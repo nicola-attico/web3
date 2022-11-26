@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_widget_dependency">
+    <m2m_sp_widget_dependency action="INSERT_OR_UPDATE">
+        <sp_dependency display_value="HashConnect">272ddf8b1bd315104a270b05464bcb5b</sp_dependency>
+        <sp_widget display_value="web3login">7cade7ea8753d110dedaeacbbbbb359d</sp_widget>
+        <sys_class_name>m2m_sp_widget_dependency</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-26 05:06:35</sys_created_on>
+        <sys_id>ca3d13cb1bd315104a270b05464bcb76</sys_id>
+        <sys_name>HashConnect.web3login</sys_name>
+        <sys_package display_value="web3" source="x_snc_web3">4a3d2faa8753d110dedaeacbbbbb3525</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="web3">4a3d2faa8753d110dedaeacbbbbb3525</sys_scope>
+        <sys_update_name>m2m_sp_widget_dependency_ca3d13cb1bd315104a270b05464bcb76</sys_update_name>
+    </m2m_sp_widget_dependency>
+</record_update>

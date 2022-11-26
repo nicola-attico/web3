@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_dependency">
+    <sp_dependency action="INSERT_OR_UPDATE">
+        <module/>
+        <name>HashConnect</name>
+        <page_load>false</page_load>
+        <sp_portals/>
+        <sys_class_name>sp_dependency</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-26 05:06:35</sys_created_on>
+        <sys_id>272ddf8b1bd315104a270b05464bcb5b</sys_id>
+        <sys_name>HashConnect</sys_name>
+        <sys_package display_value="web3" source="x_snc_web3">4a3d2faa8753d110dedaeacbbbbb3525</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="web3">4a3d2faa8753d110dedaeacbbbbb3525</sys_scope>
+        <sys_update_name>sp_dependency_272ddf8b1bd315104a270b05464bcb5b</sys_update_name>
+    </sp_dependency>
+</record_update>

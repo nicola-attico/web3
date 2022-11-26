@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">d5ed2bea8753d110dedaeacbbbbb3599</sp_column>
+        <sp_widget display_value="">c54ceb6a8753d110dedaeacbbbbb35c9</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-24 17:02:33</sys_created_on>
+        <sys_id>aeed2bea8753d110dedaeacbbbbb359c</sys_id>
+        <sys_name/>
+        <sys_package display_value="web3" source="x_snc_web3">4a3d2faa8753d110dedaeacbbbbb3525</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="web3">4a3d2faa8753d110dedaeacbbbbb3525</sys_scope>
+        <sys_update_name>sp_instance_aeed2bea8753d110dedaeacbbbbb359c</sys_update_name>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=aeed2bea8753d110dedaeacbbbbb359c"/>
+</record_update>

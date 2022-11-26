@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_dependency_js_include">
+    <m2m_sp_dependency_js_include action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <sp_dependency display_value="HashConnect">272ddf8b1bd315104a270b05464bcb5b</sp_dependency>
+        <sp_js_include display_value="HashConnect">904d53cb1bd315104a270b05464bcb17</sp_js_include>
+        <sys_class_name>m2m_sp_dependency_js_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-26 05:07:07</sys_created_on>
+        <sys_id>b15d53cb1bd315104a270b05464bcb7d</sys_id>
+        <sys_name>HashConnect.HashConnect</sys_name>
+        <sys_package display_value="web3" source="x_snc_web3">4a3d2faa8753d110dedaeacbbbbb3525</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="web3">4a3d2faa8753d110dedaeacbbbbb3525</sys_scope>
+        <sys_update_name>m2m_sp_dependency_js_include_b15d53cb1bd315104a270b05464bcb7d</sys_update_name>
+    </m2m_sp_dependency_js_include>
+</record_update>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_js_include">
+    <sp_js_include action="INSERT_OR_UPDATE">
+        <display_name>HashConnect</display_name>
+        <source>local</source>
+        <sys_class_name>sp_js_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-26 05:07:07</sys_created_on>
+        <sys_id>904d53cb1bd315104a270b05464bcb17</sys_id>
+        <sys_name>HashConnect</sys_name>
+        <sys_package display_value="web3" source="x_snc_web3">4a3d2faa8753d110dedaeacbbbbb3525</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="web3">4a3d2faa8753d110dedaeacbbbbb3525</sys_scope>
+        <sys_ui_script display_value="x_snc_web3.HashConnect">95bfab6e8753d110dedaeacbbbbb3575</sys_ui_script>
+        <sys_update_name>sp_js_include_904d53cb1bd315104a270b05464bcb17</sys_update_name>
+        <url/>
+    </sp_js_include>
+</record_update>
